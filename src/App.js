@@ -11,11 +11,9 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/books/1" render={() => <Final books={books}/> }/>
-        <Route path="/books" render={() => <Books books={books} />} />
-        </Switch>
+       <Route path="/books" exact render={() => <Books books={books} />} />
+         <Route path="/books/:id" render={() => <Final books={books}/> }/>
         <Footer />
       </div>
     </Router>

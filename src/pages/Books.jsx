@@ -3,7 +3,6 @@ import Book from "../components/ui/Book";
 import Final from "./Final";
 
 const Books = ({ books: initialBooks }) => {
-    console.log("books loaded")
   const [books, setBooks] = useState(initialBooks);
 
   function filterBooks(filter) {
