@@ -1,7 +1,7 @@
 import react from "react";
 import Book from "../components/ui/Book";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, useParams } from "react-router-dom";
+import { useParams, Link} from "react-router-dom";
 import Rating from "../components/ui/Rating";
 import Price from "../components/ui/Price";
 
