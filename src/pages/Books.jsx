@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Book from "../components/ui/Book";
-import Final from "./Final";
+import BookInfo from "./BookInfo";
 
 const Books = ({ books: initialBooks }) => {
   const [books, setBooks] = useState(initialBooks);
@@ -55,7 +55,7 @@ const Books = ({ books: initialBooks }) => {
                   <option value="RATING">Rating</option>
                 </select>
               </div>
-              <div className="books" onClick={Final}>
+              <div className="books" onClick={BookInfo}>
                 {books.map((book) => (
                   <Book book={book} key={book.id} />
                 ))}

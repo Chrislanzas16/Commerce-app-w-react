@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import react from "react";
 import Book from "../components/ui/Book";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useParams } from "react-router-dom";
