@@ -1,8 +1,6 @@
 import react, { useState } from "react";
 import Book from "../components/ui/Book";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { books } from "../data";
-import { fas } from "@fortawesome/free-solid-svg-icons";
 import { Link, useParams } from "react-router-dom";
 import Rating from "../components/ui/Rating";
 import Price from "../components/ui/Price";
